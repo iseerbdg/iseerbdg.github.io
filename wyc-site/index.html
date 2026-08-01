@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="A modern website concept for Wayzata Yacht Club—racing, community, education, and sailing on Lake Minnetonka and Lake Superior." />
+  <title>Wayzata Yacht Club | Sail. Race. Belong.</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" data-header>
+    <div class="nav-shell">
+      <a class="brand" href="#top" aria-label="Wayzata Yacht Club home">
+        <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true">
+          <path d="M30 7v43" />
+          <path d="M30 10 10 43h20V10Z" class="brand-fill" />
+          <path d="M34 17 54 43H34V17Z" class="brand-fill brand-fill-alt" />
+          <path d="M8 51c8 5 16 5 24 0 8 5 16 5 24 0" />
+        </svg>
+        <span class="brand-copy">
+          <strong>WAYZATA</strong>
+          <span>YACHT CLUB</span>
+        </span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span><span></span>
+        <span class="sr-only">Toggle navigation</span>
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+        <a href="#race">Race</a>
+        <a href="#crew">Crew</a>
+        <a href="#learn">Learn</a>
+        <a href="#membership">Membership</a>
+        <a href="#about">About</a>
+        <a class="nav-link-muted" href="https://www.wyc.org/calendar" target="_blank" rel="noreferrer">Calendar</a>
+        <a class="button button-small button-outline" href="https://www.wyc.org/login" target="_blank" rel="noreferrer">Member Login</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="top" class="hero" aria-labelledby="hero-title">
+      <div class="hero-media" role="img" aria-label="Sailboats racing together on open water"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-content container">
+        <div class="eyebrow reveal">Lake Minnetonka · Bayfield · Since 1965</div>
+        <h1 id="hero-title" class="reveal">Sail hard.<br /><em>Belong here.</em></h1>
+        <p class="hero-lede reveal">One of America’s most active sailboat racing communities—built for competitors, new sailors, families, and everyone ready to get on the water.</p>
+        <div class="hero-actions reveal">
+          <a class="button button-primary" href="#race">Explore Racing</a>
+          <a class="button button-ghost" href="#crew">Find a Crew Spot</a>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#quick-paths" aria-label="Scroll to explore">
+        <span>Explore</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg>
+      </a>
+    </section>
+
+    <section id="quick-paths" class="quick-paths section-pad">
+      <div class="container">
+        <div class="section-heading section-heading-split reveal">
+          <div>
+            <div class="eyebrow eyebrow-dark">Your way onto the water</div>
+            <h2>Start where you are.</h2>
+          </div>
+          <p>You do not need to own a boat—or arrive as an expert. Choose the path that fits you and get connected.</p>
+        </div>
+
+        <div class="path-grid">
+          <article class="path-card reveal">
+            <div class="path-number">01</div>
+            <svg class="path-icon" viewBox="0 0 64 64" aria-hidden="true"><path d="M7 49h50M17 43h30l-5 8H22l-5-8ZM31 10v33M31 12 13 38h18V12ZM35 18l15 20H35V18Z" /></svg>
+            <h3>I want to race</h3>
+            <p>Explore one-design and handicap fleets, regattas, race documents, schedules, and results.</p>
+            <a class="text-link" href="#race">See racing options <span>→</span></a>
+          </article>
+
+          <article class="path-card path-card-featured reveal">
+            <div class="path-number">02</div>
+            <svg class="path-icon" viewBox="0 0 64 64" aria-hidden="true"><circle cx="23" cy="21" r="7"/><circle cx="43" cy="25" r="6"/><path d="M9 50c1-11 7-17 14-17s13 6 14 17M35 50c1-8 4-13 9-13 6 0 10 5 11 13" /></svg>
+            <h3>I want to crew</h3>
+            <p>Meet skippers, find open spots, build skills, and experience racing without owning a boat.</p>
+            <a class="text-link" href="#crew">Find your ride <span>→</span></a>
+          </article>
+
+          <article class="path-card reveal">
+            <div class="path-number">03</div>
+            <svg class="path-icon" viewBox="0 0 64 64" aria-hidden="true"><path d="M12 17h40v30H12zM20 25h24M20 33h19M20 41h13"/><path d="M26 17V9h12v8" /></svg>
+            <h3>I want to learn</h3>
+            <p>Build confidence through seminars, coaching, youth sailing, and nationally recognized instruction.</p>
+            <a class="text-link" href="#learn">Explore learning <span>→</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="race" class="race-feature section-pad">
+      <div class="container feature-grid">
+        <div class="feature-copy reveal">
+          <div class="eyebrow">Racing at WYC</div>
+          <h2>Big-fleet energy.<br />Lake-level access.</h2>
+          <p class="large-copy">WYC oversees one of the largest sailboat racing programs in the United States, with more than 65 Lake Minnetonka keelboat races each season and evening participation reaching 130 boats.</p>
+          <p>From tactical one-design racing to PHRF and MORC handicap fleets, there is a starting line for nearly every kind of sailor.</p>
+          <div class="button-row">
+            <a class="button button-light" href="https://www.wyc.org/fleets" target="_blank" rel="noreferrer">Explore Fleets</a>
+            <a class="button button-line" href="https://www.wyc.org/racing" target="_blank" rel="noreferrer">Racing Resources</a>
+          </div>
+        </div>
+
+        <div class="stat-panel reveal">
+          <div class="stat-image"></div>
+          <div class="stat-card stat-card-a">
+            <strong>65+</strong>
+            <span>Keelboat races each season</span>
+          </div>
+          <div class="stat-card stat-card-b">
+            <strong>130</strong>
+            <span>Boats on peak race nights</span>
+          </div>
+          <div class="stat-card stat-card-c">
+            <strong>2</strong>
+            <span>Iconic freshwater venues</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="fleet-strip" aria-label="Featured fleets">
+      <div class="marquee-track">
+        <span>J/22</span><i></i><span>J/24</span><i></i><span>Capri 25</span><i></i><span>Ensign</span><i></i><span>Sonar</span><i></i><span>S2 7.9</span><i></i><span>PHRF</span><i></i><span>MORC</span><i></i><span>Laser</span><i></i>
+        <span aria-hidden="true">J/22</span><i aria-hidden="true"></i><span aria-hidden="true">J/24</span><i aria-hidden="true"></i><span aria-hidden="true">Capri 25</span><i aria-hidden="true"></i><span aria-hidden="true">Ensign</span><i aria-hidden="true"></i><span aria-hidden="true">Sonar</span><i aria-hidden="true"></i><span aria-hidden="true">S2 7.9</span><i aria-hidden="true"></i><span aria-hidden="true">PHRF</span><i aria-hidden="true"></i><span aria-hidden="true">MORC</span><i aria-hidden="true"></i><span aria-hidden="true">Laser</span><i aria-hidden="true"></i>
+      </div>
+    </section>
+
+    <section id="crew" class="crew-section section-pad">
+      <div class="container crew-grid">
+        <div class="crew-image reveal">
+          <div class="image-label">No boat required</div>
+        </div>
+        <div class="crew-copy reveal">
+          <div class="eyebrow eyebrow-dark">Crew on a boat</div>
+          <h2>Your first race can start with a conversation.</h2>
+          <p class="large-copy">Boat owners need crew, and curiosity matters more than a perfect résumé. WYC helps connect new sailors with skippers through RailMeets, seminars, fleet contacts, and the time-honored “show and go” approach.</p>
+          <div class="crew-steps">
+            <div><span>1</span><p>Create a RailMeets profile or contact the club.</p></div>
+            <div><span>2</span><p>Meet a skipper and find the right fleet.</p></div>
+            <div><span>3</span><p>Show up ready to learn—and get on the water.</p></div>
+          </div>
+          <div class="button-row">
+            <a class="button button-dark" href="https://www.wyc.org/crew" target="_blank" rel="noreferrer">How to Get Started</a>
+            <a class="text-link text-link-dark" href="https://www.wyc.org/railmeets" target="_blank" rel="noreferrer">Go to RailMeets <span>→</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="learn" class="learn-section section-pad">
+      <div class="container">
+        <div class="section-heading section-heading-split reveal">
+          <div>
+            <div class="eyebrow">Learn & improve</div>
+            <h2>Better sailors.<br />Stronger teams.</h2>
+          </div>
+          <p>Instruction at every stage—from a first day on the water to advanced race strategy and team communication.</p>
+        </div>
+
+        <div class="learn-grid">
+          <article class="learn-card reveal">
+            <span class="learn-kicker">Adult sailors</span>
+            <h3>Seminars & coaching</h3>
+            <p>Year-round classroom sessions, on-the-water drills, rules instruction, video analysis, and visiting coaches.</p>
+            <a class="text-link" href="https://www.wyc.org/seminars" target="_blank" rel="noreferrer">See seminars <span>→</span></a>
+          </article>
+          <article class="learn-card learn-photo reveal" aria-label="Youth sailor racing a dinghy">
+            <div class="learn-photo-copy">
+              <span class="learn-kicker">Youth sailors</span>
+              <h3>Wayzata Sailing School</h3>
+              <p>Summer camps, youth racing, high-school and college programs next door at the Wayzata Sailing Center.</p>
+              <a class="text-link" href="https://www.wayzatasailing.org/" target="_blank" rel="noreferrer">Visit sailing school <span>→</span></a>
+            </div>
+          </article>
+          <article class="learn-card reveal">
+            <span class="learn-kicker">New to racing</span>
+            <h3>Learn by doing</h3>
+            <p>Find a welcoming fleet, join a crew, and build practical skills through racing alongside experienced sailors.</p>
+            <a class="text-link" href="https://www.wyc.org/crew" target="_blank" rel="noreferrer">Start as crew <span>→</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="ais-section section-pad">
+      <div class="ais-watermark" aria-hidden="true">SUPERIOR</div>
+      <div class="container ais-grid">
+        <div class="ais-copy reveal">
+          <div class="eyebrow">Apostle Islands Station</div>
+          <h2>Take racing north.</h2>
+          <p class="large-copy">WYC’s Bayfield program brings buoy racing, mid-distance courses, offshore sailing, and an active social community to the Apostle Islands of Lake Superior.</p>
+          <a class="button button-primary" href="https://www.wyc.org/ais" target="_blank" rel="noreferrer">Explore AIS</a>
+        </div>
+        <div class="ais-events reveal">
+          <a href="https://www.wyc.org/ais" target="_blank" rel="noreferrer"><span>01</span><strong>Double Hander</strong><em>June</em></a>
+          <a href="https://www.wyc.org/ais" target="_blank" rel="noreferrer"><span>02</span><strong>Around the Islands</strong><em>June</em></a>
+          <a href="https://www.wyc.org/ais_raceweek" target="_blank" rel="noreferrer"><span>03</span><strong>Bayfield Race Week</strong><em>July</em></a>
+          <a href="https://www.wyc.org/ais" target="_blank" rel="noreferrer"><span>04</span><strong>Silver Bay Race</strong><em>August</em></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="membership" class="membership-section section-pad">
+      <div class="container">
+        <div class="section-heading section-heading-split reveal">
+          <div>
+            <div class="eyebrow eyebrow-dark">2026 membership</div>
+            <h2>Choose your level.</h2>
+          </div>
+          <p>WYC is a nonprofit racing club owned and operated by its members. Paid membership is required after three races.</p>
+        </div>
+
+        <div class="membership-grid">
+          <article class="membership-card reveal">
+            <span>Full</span>
+            <div class="price"><sup>$</sup>550<small>/ year</small></div>
+            <p>For boat owners who race, moor at the club, vote, and build mooring priority.</p>
+            <ul>
+              <li>Includes spouse and children under 25</li>
+              <li>Voting privileges</li>
+              <li>Mooring priority</li>
+            </ul>
+            <a class="button button-dark button-block" href="https://www.wyc.org/membership" target="_blank" rel="noreferrer">Membership Details</a>
+          </article>
+          <article class="membership-card membership-card-featured reveal">
+            <div class="popular-label">Popular for active sailors</div>
+            <span>Annual</span>
+            <div class="price"><sup>$</sup>400<small>/ year</small></div>
+            <p>For regular sailors who do not own a boat but may serve as the required member onboard.</p>
+            <ul>
+              <li>Race regularly</li>
+              <li>Club access and parking</li>
+              <li>Member-on-board eligibility</li>
+            </ul>
+            <a class="button button-primary button-block" href="https://www.wyc.org/membership" target="_blank" rel="noreferrer">Membership Details</a>
+          </article>
+          <article class="membership-card reveal">
+            <span>Crew</span>
+            <div class="price"><sup>$</sup>130<small>/ year</small></div>
+            <p>For sailors who crew or skipper small boats and want full access to the club community.</p>
+            <ul>
+              <li>Required after three races</li>
+              <li>Club mailings and facilities</li>
+              <li>East lot parking permit</li>
+            </ul>
+            <a class="button button-dark button-block" href="https://www.wyc.org/membership" target="_blank" rel="noreferrer">Membership Details</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about-section section-pad">
+      <div class="container about-grid">
+        <div class="about-heading reveal">
+          <div class="eyebrow">About Wayzata Yacht Club</div>
+          <h2>Competitive by nature.<br /><em>Welcoming by choice.</em></h2>
+        </div>
+        <div class="about-copy reveal">
+          <p class="large-copy">Founded in 1965 by 15 sailors, WYC grew by putting racing and community ahead of exclusivity. Today, the club brings together more than 600 members across Lake Minnetonka and Lake Superior.</p>
+          <p>It remains a member-owned, working sailing club: serious about good race management, generous with knowledge, and always looking for the next person who wants to sail.</p>
+          <a class="text-link text-link-light" href="https://www.wyc.org/about" target="_blank" rel="noreferrer">Read the full story <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="cta-media"></div>
+      <div class="cta-overlay"></div>
+      <div class="container cta-content reveal">
+        <div class="eyebrow">Ready to get involved?</div>
+        <h2>Meet us at the water.</h2>
+        <p>Race a boat. Join a crew. Learn something new. Become part of one of the Midwest’s most active sailing communities.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="https://www.wyc.org/membership" target="_blank" rel="noreferrer">Become a Member</a>
+          <a class="button button-ghost" href="mailto:membership@wyc.org">Contact WYC</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand footer-brand" href="#top" aria-label="Wayzata Yacht Club home">
+          <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true">
+            <path d="M30 7v43" /><path d="M30 10 10 43h20V10Z" class="brand-fill" /><path d="M34 17 54 43H34V17Z" class="brand-fill brand-fill-alt" /><path d="M8 51c8 5 16 5 24 0 8 5 16 5 24 0" />
+          </svg>
+          <span class="brand-copy"><strong>WAYZATA</strong><span>YACHT CLUB</span></span>
+        </a>
+        <p class="footer-tagline">Sail. Race. Belong.</p>
+      </div>
+      <div>
+        <h3>Visit</h3>
+        <address>1100 Eastman Lane<br />Wayzata, MN 55391</address>
+        <a href="https://maps.google.com/?q=1100+Eastman+Lane+Wayzata+MN+55391" target="_blank" rel="noreferrer">Map & directions</a>
+      </div>
+      <div>
+        <h3>Explore</h3>
+        <a href="https://www.wyc.org/calendar" target="_blank" rel="noreferrer">Calendar</a>
+        <a href="https://www.wyc.org/fleets" target="_blank" rel="noreferrer">Fleets</a>
+        <a href="https://www.wyc.org/results" target="_blank" rel="noreferrer">Results</a>
+        <a href="https://www.wyc.org/regattas" target="_blank" rel="noreferrer">Regattas</a>
+      </div>
+      <div>
+        <h3>Connect</h3>
+        <a href="mailto:membership@wyc.org">membership@wyc.org</a>
+        <a href="https://www.wyc.org/crew" target="_blank" rel="noreferrer">Crew opportunities</a>
+        <a href="https://www.wyc.org/login" target="_blank" rel="noreferrer">Member login</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>Website concept for Wayzata Yacht Club</span>
+      <span>© 2026 Wayzata Yacht Club</span>
+    </div>
+  </footer>
+</body>
+</html>
